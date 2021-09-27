@@ -1,0 +1,40 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "钟小寄宿成绩查询"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/weapp/button/index",
+			"van-cell-group": "/wxcomponents/weapp/cell-group/index",
+			"van-cell": "/wxcomponents/weapp/cell/index",
+			"van-field": "/wxcomponents/weapp/field/index",
+			"van-icon": "/wxcomponents/weapp/icon/index",
+			"van-popup": "/wxcomponents/weapp/popup/index",
+			"van-picker": "/wxcomponents/weapp/picker/index",
+			"van-search": "/wxcomponents/weapp/search/index",
+			"van-dropdown-menu": "/wxcomponents/weapp/dropdown-menu/index",
+			"van-dropdown-item": "/wxcomponents/weapp/dropdown-item/index",
+			"van-dialog": "/wxcomponents/weapp/dialog/index",
+			"van-uploader": "/wxcomponents/weapp/uploader/index",
+			"van-loading": "/wxcomponents/weapp/loading/index",
+			"van-image": "/wxcomponents/weapp/image/index",
+			"van-radio": "/wxcomponents/weapp/radio/index",
+			"van-radio-group": "/wxcomponents/weapp/radio-group/index"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"component-(.*)": "@/components/component-$1.vue"
+		}
+	}
+}
